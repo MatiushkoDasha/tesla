@@ -5,7 +5,7 @@
 
 body {
     font-family: "Montserrat";
-    background-image: url(/img/car.png);
+    background-image: url(../img/car.png);
     background-size: cover;
     background-position: center;
 }
@@ -111,6 +111,7 @@ footer ul {
 }
 
 footer {
+    align-items: center;
 padding-bottom: 48px;
 }
 
