@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat";
+    background-image: url(/img/car.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.flex_between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: block;
+}
+
+a {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #121212;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+h1 {
+    display: block;
+    font-size: 60px;
+    letter-spacing: 3px;
+    color: #121212;
+    font-weight: 600;
+}
+
+header  {
+    align-items: center;
+    padding-top: 29px;
+}
+
+.center ul {
+    gap: 20px;
+}
+.end ul {
+    gap: 10px;
+}
+main {
+    padding: 79px 0 694px;
+    justify-items: center;
+}
+
+.osnova {
+    gap: 21px;
+}
+.osnova p {
+    padding-top: 19px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #121212;
+    font-weight: 400;
+}
+
+.osnova a {
+    padding-top: 19px;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    color: #121212;
+    font-weight: 400;
+}
+
+.button {
+    padding-top: 48px;
+    gap: 29px;
+}
+
+.button a {
+    display: block;
+    border-radius: 5px;
+    padding: 14px 64px ;
+}
+
+.one {
+    background-color: #3e4145;
+    color: #ffffff;
+}
+
+.two {
+    background-color: #e7e7e5;
+}
+
+footer ul {
+    gap: 16px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+footer {
+padding-bottom: 48px;
+}
+
+footer a {
+    font-weight: 400;
+}
+
+footer p {
+font-weight: 500;
+}
